@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class MotorizedVehicle extends Vehicle{
+public abstract class MotorizedVehicle extends Transport{
     private String number;
     private Engine engine;
     public MotorizedVehicle(String number, Engine engine, int numberOfSeats, int wheelsAmount){
