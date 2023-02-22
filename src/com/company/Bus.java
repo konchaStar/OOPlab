@@ -7,8 +7,8 @@ enum BusTypes {
 }
 public class Bus extends MotorizedVehicle{
     private BusTypes type;
-    public Bus(BusTypes type, Engine engine, String number, int seats, int wheels){
-        super(number, engine, seats, wheels);
+    public Bus(String brand, String color, BusTypes type, Engine engine, String number, int seats, int wheels){
+        super(brand, number, engine, color, seats, wheels);
         this.type = type;
     }
 }
